@@ -113,6 +113,11 @@ ul.list-group.w-100::-webkit-scrollbar {
 }
 ul.list-group.w-100 .list-group-item {
   display: flex !important;
+  cursor: pointer;
+}
+ul.list-group.w-100 .list-group-item:hover {
+  background-color: black ;
+  color:white ;
 }
 ul.list-group.w-100 .title {
   font-weight: 500;
@@ -132,7 +137,7 @@ ul.list-group.w-100 .group {
   gap: 5px;
 }
 ul.list-group.w-100 .group img {
-  width: 55px !important;
+  width: 25px;
   border: 1px solid transparent;
   border-radius: 50%;
 }
@@ -142,6 +147,7 @@ ul.list-group.w-100 p {
 ul.list-group.w-100 img {
   border-radius: 50%;
   border: 1px solid #8080802e;
+  width: 60px;
 }
 ul.list-group.w-100 .time {
   font-weight: 500;

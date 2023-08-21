@@ -132,7 +132,7 @@ ul.list-group.w-100 .group {
   gap: 5px;
 }
 ul.list-group.w-100 .group img {
-  width: 25px;
+  width: 55px !important;
   border: 1px solid transparent;
   border-radius: 50%;
 }
